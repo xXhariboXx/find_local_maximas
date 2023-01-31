@@ -1,0 +1,29 @@
+{
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.defaultInterpreterPath": "~/.conda/envs/find_local_maximas/python.exe",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--max-line-length=120",
+        "--disable=missing-module-docstring,missing-class-docstring,logging-fstring-interpolation"
+    ],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=120"
+    ],
+}

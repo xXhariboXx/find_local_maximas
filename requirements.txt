@@ -1,0 +1,10 @@
+matplotlib
+numpy
+scipy
+ipykernel
+black
+pylint
+isort
+argparse
+dacite
+pycodestyle
